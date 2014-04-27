@@ -1,4 +1,33 @@
-body { background-color: #FAF0E6; }
-canvas { cursor:move; }
+body {
+    background-color: #faf0e6;
+}
 
+canvas {
+    cursor: move;
+}
 
+#github {
+	position: fixed;
+	right: 0;
+	top: 0;
+}
+
+footer  {
+    background: #222;
+    bottom: 0;
+    left: 0;    
+	position: absolute;     
+    right: 0;
+    text-align: center;
+}  
+
+body > footer strong {
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #888;
+}
+
+body > footer a {
+    text-decoration: none;
+    color: #ccc;
+}
