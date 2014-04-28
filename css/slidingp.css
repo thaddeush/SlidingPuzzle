@@ -1,4 +1,53 @@
-body { background-color: #FAF0E6; }
-canvas { cursor:move; }
+body {
+    background-color: #faf0e6;
+}
 
+canvas {
+    cursor: move;
+}
 
+#ribbon-github {
+	position: fixed;
+	right: 0;
+	top: 0;
+}
+
+footer  {
+    background: #222;
+    bottom: 0px;
+    left: 0px;    
+	position: absolute;     
+    right: 0px;
+    text-align: center;
+    border-top: 3px solid #888;    
+}  
+
+body > footer strong {
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #888;
+}
+
+body > footer a:link {
+    text-decoration: none;
+    color: #ccc;
+}
+
+body > footer a:hover {
+    text-decoration: underline;
+    color: #ccc;
+}
+
+body > footer ul {
+    list-style: none outside none;
+}
+
+body > footer li {
+    display: inline;
+    margin-right: 2px;
+}
+
+body > footer img {
+    width: 25px;
+    height: 25px;
+}
