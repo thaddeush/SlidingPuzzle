@@ -4,13 +4,13 @@ body {
 
 canvas {
     cursor: move;
-    position: relative;
 }
 
 #ribbon-github {
-	position: absolute;
-	right: 0;
-	top: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;  	
 }
 
 footer  {
@@ -20,8 +20,14 @@ footer  {
     position: absolute;     
     right: 0px;
     text-align: center;
-    border-top: 3px solid #888;    
+    border-top: 3px solid #888;  
+    z-index: 1;    
 }  
+
+section {
+    position: relative;  
+    z-index: 2;
+}
 
 body > footer strong {
     font-family: sans-serif;
