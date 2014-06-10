@@ -4,10 +4,11 @@ body {
 
 canvas {
     cursor: move;
+    position: relative;
 }
 
 #ribbon-github {
-	position: fixed;
+	position: absolute;
 	right: 0;
 	top: 0;
 }
@@ -16,7 +17,7 @@ footer  {
     background: #222;
     bottom: 0px;
     left: 0px;    
-	position: absolute;     
+    position: relative;     
     right: 0px;
     text-align: center;
     border-top: 3px solid #888;    
